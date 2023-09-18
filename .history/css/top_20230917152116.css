@@ -1,0 +1,7 @@
+/* Header */
+.hd_top {
+    background-color: var(--cl-main);
+}
+.hd_top .hd_left ul {
+    display: flex;
+}

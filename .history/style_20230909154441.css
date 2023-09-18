@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.inner {
+    max-width: 1300px;
+}
+header {
+    background-color: #222222;
+}
+.header_info {
+    display: flex;
+}

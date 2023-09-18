@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --cl-main: #295ac3;
+    --fsize: 16px;
+}
+body {
+    font-family: var(--f-red);
+    font-size: var(--fsize);
+    color: #333;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --cl-main: #295ac3;
+    --fsize: 16px;
+}
+body {
+    font-family: var(--f-red);
+    font-size: var(--fsize);
+    color: #000;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    max-width: 1510px;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.home_page {
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,97 @@
+/* Header */
+.hd_top {
+    background-color: var(--cl-main);
+    padding: 10px 0;
+}
+.hd_top .hd_left ul {
+    display: flex;
+}
+.hd_left ul li {
+    padding-right: 20px
+}
+.hd_left ul li a {
+    letter-spacing: 0.05em;
+    position: relative;
+}
+.hd_left .icon {
+    padding-left: 25px;
+}
+.hd_left .icon::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+}
+.hd_left .pin::before {   
+    -webkit-mask-image: url(../images/pin.png);
+}
+.hd_left .mail::before {
+    -webkit-mask-image: url(../images/telephone.png);
+}
+.hd_right>ul {
+    display: flex;
+}
+.hd_right ul li {
+    position: relative;
+}
+.hd_right ul>li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hd_right span {
+    color: #fff;
+    cursor: pointer;
+}
+.hd_right ul ul {
+    position: absolute;
+    top: 30px;
+    width: 140px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: -1px 1px 2px rgb(0 0 0 / 31%);
+    display: none;
+}
+.hd_right ul>li.active ul {
+    display: block;
+}
+.hd_right ul ul a {
+    color: #000;
+    padding: 5px 0;
+    display: block;
+}
+.hd_right span::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+    -webkit-mask-image: url(../images/arr.png);
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+}
+
+/* header nav */
+.hd_nav {
+    padding: 10px 0;
+}
+.hd_nav .search {
+    display: flex;
+    width: 20%;
+}
+.hd_nav .search input {
+    font-size: 16px;
+}
+.hd_nav .search .txt_search {
+    width: 70%;
+}
